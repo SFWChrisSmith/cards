@@ -9,9 +9,10 @@ class Deck {
     fun buildDeck() {
         throw UnsupportedOperationException("buildDeck() function not implemented.")
     }
-
-    // Randomly shuffles the content of 'cards'
-    fun shuffle() {
-        throw UnsupportedOperationException("shuffle() function not implemented.")
-    }
 }
+
+// Randomly shuffles the content of 'cards'.
+// This should be implemented as an extension function of MutableList<T>
+//fun shuffle() {
+//    throw UnsupportedOperationException("shuffle() function not implemented.")
+//}

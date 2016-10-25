@@ -14,7 +14,7 @@ class DeckController {
     @RequestMapping("/shuffled-deck")
     fun shuffledDeck(): Deck {
         var myDeck = Deck()
-        myDeck.shuffle()
+        //myDeck.cards.shuffle()
         return myDeck
     }
 }
